@@ -1,0 +1,15 @@
+* INSTALL
+Clone it
+#+begin_src shell
+git clone https://github.com/laluxx/activate-emacs ~/.config/emacs/lisp/activate-emacs
+#+end_src>
+
+And add to init.el
+#+begin_src lisp
+(use-package activate-emacs
+  :load-path "~/.config/emacs/lisp/activate-emacs")
+#+end_src>
+
+* Demo
+[[./demo.png]]
+[[./demo2.png]]
